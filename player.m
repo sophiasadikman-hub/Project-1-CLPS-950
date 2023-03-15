@@ -2,9 +2,15 @@ function [] = player()
 %call function, display it
 %call function 
 
+
+
+all_inputs = 
 while true
+    word = input('Type word Here');
     %function that checks whether word or not
     word_checking
+    count_points
+    
 
     %array for points
 
@@ -13,4 +19,3 @@ while true
 %while loop while true (for player to 
 %exits program when timer is out
 
-word = input()
