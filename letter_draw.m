@@ -1,6 +1,18 @@
 function [random_letters] = letter_draw()
+
 consonants = [ 'b' ,'c', 'd','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z' ];
 vowels = ['a','e','i','o','u'];
-letters_selected = randi %we need to figure out how to get at least one letter from the vowels, and the rest from the consonants%
-random_letters = alphabet(letters_selected)
+
+letters_selected_cons = randi(length(consonants),1,5);
+disp(letters_selected_cons)
+letters_selected_vows = randi(length(vowels),1,2);
+disp(letters_selected_vows)
+
+x = [consonants(letters_selected_cons),vowels(letters_selected_vows)];
+random_letters = [];
+
+for i = 1:length(x)
+    random_letters = [random_letters, x(i), '   '];
+
+
 end
