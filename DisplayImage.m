@@ -1,3 +1,2 @@
-good_job = imread('good_job_image_clps.png');
-
-%showing it with a black background, so the 'good job' doesn't showup%
+great_job = imread('great_job.png');
+imshow(great_job)
