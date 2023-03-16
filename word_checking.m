@@ -1,5 +1,5 @@
-function [isword] = word_checking(word)
 
+function [isword] = word_checking(word)
 emb = fastTextWordEmbedding;
 
 isword = isVocabularyWord(emb,word);
