@@ -13,8 +13,10 @@ while true
     else 
         disp('Not a word!');
     end
-    
-end
+
+end   
+great_job = imread('great_job.png');
+imshow(great_job)
   
 
 %exits program when timer is out
