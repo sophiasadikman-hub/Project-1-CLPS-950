@@ -8,3 +8,6 @@ while (stat == true)
     countdown = countdown - 1;
     pause(1)
 end
+
+great_job = imread('great_job.png');
+imshow(great_job)
