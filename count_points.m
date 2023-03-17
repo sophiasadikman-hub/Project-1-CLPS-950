@@ -7,7 +7,7 @@ for iter = 1:length(word);
         random_letters(done) = [];
     else
         points = points + 0;
-        disp('You did not use the provided letters properly! Sorry!')
+        disp('You did not use the provided letters properly! Try Again!')
         return
 
     end
