@@ -15,10 +15,5 @@ while true
     end
 
 end   
-%great_job = imread('great_job.png');
-%imshow(great_job)
-Timer+Image();
-  
-
-%exits program when timer is out
-
+great_job = imread('great_job.png');
+imshow(great_job)
