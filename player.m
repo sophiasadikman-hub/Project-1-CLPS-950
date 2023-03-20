@@ -20,7 +20,7 @@ while etime(clock, iniTime) < limit %while loop to keep the game going until the
         disp('Not a word!'); %if matlab does not find the inputted word in the dictionary, then displays 'Not a word' to the player
     end %ends the if statement
 end %ends the while loop
-disp('Time is up! Thanks for playing! Want to play again?') %Displays a message after the player is done!%
+disp('Time is up--thanks for playing! Want to play again?') %Displays a message after the player is done!%
 great_job = imread('great_job.png'); %The command "imread" reads an image from a graphics file, in this case, "great_job.png".%
 imshow(great_job) %The command "imshow" diplays the image%
 end   %ends the player function
