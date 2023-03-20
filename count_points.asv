@@ -1,6 +1,6 @@
 function [points, used_vector] = count_points(word, points, random_letters, used_vector); %sets up function to count the points for the inputted words
-%have to make a for loop checking letter by letter
-if contains(word, used_vector)
+%maybe i have to make a for loop checking letter by letter
+if strfind(word, used_vector) %if statement to see if the inputted word by the user was already used (and put into the used_vecto
     disp('You already made this word!')
     points = points;
     used_vector = used_vector;
