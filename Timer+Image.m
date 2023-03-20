@@ -11,3 +11,4 @@ end
 
 great_job = imread('great_job.png');
 imshow(great_job)
+disp('Thanks for playing! Want to play again?') %We could include a little message after%
