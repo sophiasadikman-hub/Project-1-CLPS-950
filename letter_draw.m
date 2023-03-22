@@ -7,7 +7,7 @@ letters_selected_cons = randi(length(consonants),1,5); %Creates a variable, lett
 letters_selected_vows = randi(length(vowels),1,2); %Creates a variable, letters_selected_vows, of a random 1:2 matrix with 2 vowels.%
 
 given_letters = [consonants(letters_selected_cons),vowels(letters_selected_vows)]; %Combines the selected consonants and vowels matrices into one matrix.%
-random_letters = []; %Creates empty array that will later be populated with the seven letters.%
+random_letters = []; %Creates empty array that will later be populated with the seven letters%
 
 for i = 1:length(given_letters) 
     random_letters = [random_letters, given_letters(i), '   ']; %Presents the seven letters with 3 spaces in between each for a cleaner look.%
