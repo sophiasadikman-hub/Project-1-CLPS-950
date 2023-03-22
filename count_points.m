@@ -24,6 +24,3 @@ used_vector = [used_vector, word]; %updates a vector to add words the user alrea
 
 points = points + length(word); %adds updated points calculated as amount of letters (i.e. length) of the inputted word
 end
-
-
-
