@@ -1,6 +1,7 @@
 function [points, used_vector] = count_points(word, points, random_letters, used_vector); %sets up function to count the points for the inputted words and keep track of previous words used
 
 function [points, used_vector] = count_points(word, points, random_letters, used_vector); %sets up function to count the points for the inputted words
+%maybe i have to make a for loop checking letter by letter
 if strfind(word, used_vector) %if statement to see if the inputted word by the user was already used 
     disp('You already made this word!') %displays the statement in quotes
     points = points; %to stop coding errors
@@ -25,6 +26,3 @@ used_vector = [used_vector, word]; %updates a vector to add words the user alrea
 
 points = points + length(word); %adds updated points calculated as amount of letters (i.e. length) of the inputted word
 end
-
-
-
