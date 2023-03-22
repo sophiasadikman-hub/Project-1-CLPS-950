@@ -1,7 +1,7 @@
 function [] = player(); %This is the main player function that calls the other functions to create one game.%
-disp('Welcome to Word Cookie!');
-disp('Your job is to make as many words as you can with the given letters!');
-disp('You have three minutes, and your time starts now!')
+disp('Welcome to Word Cookie!'); %sdisplays the text in quotes
+disp('Your job is to make as many words as you can with the given letters!'); %sdisplays the text in quotes
+disp('You have three minutes, and your time starts now!') %sdisplays the text in quotes
 
 points = 0; %Player beings with points at 0 
 used_words = []; %Creates an empty vector, used_words, to later populate with words the player has already inputted. This allows for matlab to recognize those words and not count them multiple times in the count_points function.%
