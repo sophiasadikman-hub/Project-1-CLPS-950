@@ -2,7 +2,7 @@ function [points, used_vector] = count_points(word, points, random_letters, used
 if strfind(word, used_vector) %if statement to see if the inputted word by the user was already used 
     disp('You already made this word!') %displays the statement in quotes
     points = points; %to stop coding errors
-    used_vector = used_vector; %to stop coding errors
+    used_vector = used_vector; %This is to stop coding errors.%
     return
 end
 
