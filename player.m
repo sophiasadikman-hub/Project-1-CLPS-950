@@ -13,7 +13,7 @@ while etime(clock, iniTime) < limit %A while loop is used to keep the game going
     word = input('Type word Here: ', "s"); %Code that allows the player to input their words%
     checking = word_checking(word); %This calls the word_checking function to check if the word is in the dictionary. Then the function assigns that to variable 'checking'.%
     if checking ==1 %If 'checking' is true (for example, if Matlab finds the inputted word in the dictionary).%
-       [points, used_words] = count_points(word, points, letters, used_words); %Nect, the count_points function is called to tally up the points for the word, and keep track of the previously inputted words.%
+       [points, used_words] = count_points(word, points, letters, used_words); %Next, the count_points function is called to tally up the points for the word, and keep track of the previously inputted words.%
         pnts = ['Points: ',num2str(points)]; %This sets up an updated point value that can be displayed.%
         disp(pnts); %This actually displays the updated point value to the player.%
     else 

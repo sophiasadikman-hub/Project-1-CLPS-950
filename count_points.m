@@ -7,6 +7,7 @@ if strfind(word, used_vector) %if statement to see if the inputted word by the u
     used_vector = used_vector; %This is to stop coding errors.%
     return
 end
+end
 
 for iter = 1:length(word); %loops that goes through each letter in the inputted word
     if contains(random_letters, word(iter)) %checks that each letter of the inputted word is contained in the array of random letters that was provided
