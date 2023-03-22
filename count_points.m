@@ -1,8 +1,11 @@
 function [points, used_vector] = count_points(word, points, random_letters, used_vector); %sets up function to count the points for the inputted words and keep track of previous words used
 
+<<<<<<< HEAD
 function [points, used_vector] = count_points(word, points, random_letters, used_vector); %sets up function to count the points for the inputted words
 <<<<<<< Updated upstream
 %maybe i have to make a for loop checking letter by letter
+=======
+>>>>>>> parent of 321985a (Update count_points.m)
 if strfind(word, used_vector) %if statement to see if the inputted word by the user was already used 
 =======
 if strfind(word, used_vector) %if statement to see if the inputted word by the user was already used
